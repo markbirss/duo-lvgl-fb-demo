@@ -1,7 +1,7 @@
 #
 # Makefile
 #
-CC 				:= $(shell which riscv64-unknown-linux-musl-gcc)
+CC 				:= $(shell which gcc)
 LVGL_DIR_NAME 	?= lvgl
 LVGL_DIR 		?= .
 
